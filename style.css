@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'guns';
+    src: url('Fonts/Corvinus.ttf') format('truetype');
+}
+
+:root{
+    --cor0:#F2C335;
+    --cor1:#BF820F;
+    --cor2:#A61103;
+    --cor3:#730202;
+    --cor4:#0D0D0D;
+}
+mark{
+    background-color:#bf810f79;
+    color: white;
+}
+#Appetite_For_Democracy{
+    font-family: 'guns';
+    background-color: var(--cor4);
+    color: var(--cor1);
+    font-size: 1.2em;
+}
+
+.hell_tour{
+    color: var(--cor0);
+    font-weight: normal;
+}
+body{
+    background-color: black;
+}
+body h4{
+
+        color: var(--cor1);
+        text-shadow: 1px 1px 8px var(--cor1);
+        font-family: 'guns';
+        font-weight: normal;
+        font-size: 1.7em;
+        margin: -20px 0px 0px 0px;
+        text-indent: 10px;
+}
+body h5{
+
+    color: var(--cor2);
+    text-shadow: 1px 1px 8px var(--cor3);
+    font-family: 'guns';
+    font-weight: normal;
+    font-size: 1.7em;
+    margin: 5px 0px 0px 0px;
+    text-indent: 10px;
+}
+main img{
+    margin: auto;
+    width: 50%;
+
+}
+iframe{
+    margin: auto;
+    width: :auto;
+}
+picture{
+    margin: auto;
+}
+::selection{
+    color: var(--cor1);
+    background-color: black;
+}
+p ::selection{
+    color: var(--cor0);
+    background-color: black;
+}
+
+header{
+    text-align: center;
+    padding: auto;
+}
+header > h1{
+    font-family: 'guns';
+    font-size: 75px;
+    color: var(--cor2);
+    text-shadow: 2px 2px 3px var(--cor3);
+    margin: 20px 20px -20px 20px;
+}
+p{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 21px;
+    margin: 10px 10px -2px 10px
+}
+header a{
+    display: inline-block;
+    padding: 0px;
+    color: var(--cor2);
+    font-weight: bold;
+    font-size: 20px;
+    transition-duration: 0.5s;
+    padding: 2px;
+    text-decoration: none;
+}
+header a:hover{
+    background-color: #a61103a4;
+    color: white;
+    text-decoration: underline;
+}
+div.formações nav a{
+    text-align: left;
+    color: white;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 5px 2px 2px 2px;
+    transition-duration: 0.5s;
+}
+div.formações nav a:hover{
+background-color: #a61103a4;
+text-decoration: underline;
+}
+main{
+    background-color: var(--cor4);
+    margin: 9px 30px 0px 30px;
+    border-radius: 0px 10px 10px 10px;
+}
+section > h2{
+    color: var(--cor0);
+    text-shadow: 1px 1px 8px var(--cor1);
+    background-image: linear-gradient(to right, var(--cor4), black);
+    font-family: 'guns';
+    font-weight: normal;
+    font-size: 2em;
+    text-indent: 10px
+}
+section > h3{
+    color: var(--cor2);
+    text-shadow: 1px 1px 8px var(--cor3);
+    background-image: linear-gradient(to right, var(--cor4), black);
+    font-family: 'guns';
+    font-weight: normal;
+    font-size: 2em;
+    text-indent: 10px;
+    text-align: center;
+}
+
+main p{
+    text-indent: 40px;
+    font-size: 1em;
+    text-align: justify;
+}
+strong{
+    color: var(--cor2);
+    
+}
+a{
+    color: var(--cor0);
+    text-decoration: none;
+
+}
+a.externo::after{
+    font-size: small;
+    content: '\00A0\1F517';}
+#mudança{
+    color: #A61103;
+}
+footer{
+    text-align: center;
+    font-family: 'guns';
+    font-size: 17px;
+    color: white;
+    margin: 5px 5px 0px 5px;
+    padding: 5px 5px 0px 5px;
+}
+footer a{
+    text-align: center;
+    font-family: 'guns';
+    font-size: 17px;
+    color: var(--cor0);
+    margin: 5px 5px 0px 5px;
+    padding: 5px 5px 0px 5px;
+}
+footer p{
+    text-align: center;
+    font-family: 'guns';
+    font-size: 17px;
+    color: white;
+    margin: 5px 5px 0px 5px;
+    padding: 5px 5px 0px 5px;
+}
+#ultimo{
+    display: block;
+    margin: auto;
+    width: 20%;
+}
